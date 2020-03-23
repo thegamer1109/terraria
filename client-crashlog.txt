@@ -1,0 +1,152 @@
+2/6/2018 16:44:08
+System.Exception: Map meta-data is invalid.
+   at Terraria.Map.MapHelper.LoadMapVersion2(BinaryReader fileIO, Int32 release)
+   at Terraria.Map.WorldMap.Load()
+
+2/9/2018 18:00:08
+System.Exception: Map meta-data is invalid.
+   at Terraria.Map.MapHelper.LoadMapVersion2(BinaryReader fileIO, Int32 release)
+   at Terraria.Map.WorldMap.Load()
+
+2/10/2018 14:05:10
+System.Exception: Map meta-data is invalid.
+   at Terraria.Map.MapHelper.LoadMapVersion2(BinaryReader fileIO, Int32 release)
+   at Terraria.Map.WorldMap.Load()
+
+2/10/2018 20:12:59
+System.Exception: Map meta-data is invalid.
+   at Terraria.Map.MapHelper.LoadMapVersion2(BinaryReader fileIO, Int32 release)
+   at Terraria.Map.WorldMap.Load()
+
+4/22/2018 21:43:31
+System.InvalidOperationException: Begin cannot be called again until End has been successfully called.
+   at Microsoft.Xna.Framework.Graphics.SpriteBatch.Begin(SpriteSortMode sortMode, BlendState blendState, SamplerState samplerState, DepthStencilState depthStencilState, RasterizerState rasterizerState, Effect effect, Matrix transformMatrix)
+   at Terraria.Main.RenderBlack()
+   at Terraria.Main.RenderTiles()
+   at Terraria.Main.do_Draw(GameTime gameTime)
+   at Terraria.Main.DoDraw(GameTime gameTime)
+   at Terraria.Main.Draw(GameTime gameTime)
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs)
+
+4/22/2018 21:56:10
+System.InvalidOperationException: Begin cannot be called again until End has been successfully called.
+   at Microsoft.Xna.Framework.Graphics.SpriteBatch.Begin(SpriteSortMode sortMode, BlendState blendState, SamplerState samplerState, DepthStencilState depthStencilState, RasterizerState rasterizerState, Effect effect, Matrix transformMatrix)
+   at Terraria.Main.DrawToMap_Section(Int32 secX, Int32 secY)
+   at Terraria.Main.do_Draw(GameTime gameTime)
+   at Terraria.Main.DoDraw(GameTime gameTime)
+   at Terraria.Main.Draw(GameTime gameTime)
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs)
+
+4/23/2018 13:47:36
+System.InvalidOperationException: Begin cannot be called again until End has been successfully called.
+   at Microsoft.Xna.Framework.Graphics.SpriteBatch.Begin(SpriteSortMode sortMode, BlendState blendState, SamplerState samplerState, DepthStencilState depthStencilState, RasterizerState rasterizerState, Effect effect, Matrix transformMatrix)
+   at Terraria.Main.RenderBlack()
+   at Terraria.Main.RenderTiles()
+   at Terraria.Main.do_Draw(GameTime gameTime)
+   at Terraria.Main.DoDraw(GameTime gameTime)
+   at Terraria.Main.Draw(GameTime gameTime)
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs)
+
+4/25/2018 21:19:22
+System.InvalidOperationException: Begin cannot be called again until End has been successfully called.
+   at Microsoft.Xna.Framework.Graphics.SpriteBatch.Begin(SpriteSortMode sortMode, BlendState blendState, SamplerState samplerState, DepthStencilState depthStencilState, RasterizerState rasterizerState, Effect effect, Matrix transformMatrix)
+   at Terraria.Main.DrawToMap_Section(Int32 secX, Int32 secY)
+   at Terraria.Main.do_Draw(GameTime gameTime)
+   at Terraria.Main.DoDraw(GameTime gameTime)
+   at Terraria.Main.Draw(GameTime gameTime)
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs)
+
+1/21/2019 18:18:34
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'Texture2D'.
+   at Microsoft.Xna.Framework.Helpers.CheckDisposed(Object obj, IntPtr pComPtr)
+   at Microsoft.Xna.Framework.Graphics.TextureCollection.set_Item(Int32 index, Texture value)
+   at Microsoft.Xna.Framework.Graphics.SpriteBatch.RenderBatch(Texture2D texture, SpriteInfo[] sprites, Int32 offset, Int32 count)
+   at Microsoft.Xna.Framework.Graphics.SpriteBatch.InternalDraw(Texture2D texture, Vector4& destination, Boolean scaleDestination, Nullable`1& sourceRectangle, Color color, Single rotation, Vector2& origin, SpriteEffects effects, Single depth)
+   at Terraria.DataStructures.DrawData.Draw(SpriteBatch sb)
+   at Terraria.Main.DrawPlayer_DrawAllLayers(Player drawPlayer, Int32 projectileDrawPosition, Int32 cHead)
+   at Terraria.Main.DrawPlayer(Player drawPlayer, Vector2 Position, Single rotation, Vector2 rotationOrigin, Single shadow)
+   at Terraria.Main.DrawPlayers()
+   at Terraria.Main.do_Draw(GameTime gameTime)
+   at Terraria.Main.DoDraw(GameTime gameTime)
+   at Terraria.Main.Draw(GameTime gameTime)
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs)
+
+11/29/2019 03:07:32
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'WindowsGameForm'.
+   at System.Windows.Forms.Control.CreateHandle()
+   at System.Windows.Forms.Form.CreateHandle()
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.GetSafeHandle(IWin32Window window)
+   at System.Windows.Forms.MessageBox.ShowCore(IWin32Window owner, String text, String caption, MessageBoxButtons buttons, MessageBoxIcon icon, MessageBoxDefaultButton defaultButton, MessageBoxOptions options, Boolean showHelp)
+   at Microsoft.Xna.Framework.WindowsGameHost.ShowMissingRequirementMessage(Exception exception)
+   at Microsoft.Xna.Framework.Game.ShowMissingRequirementMessage(Exception exception)
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Terraria.Program.LaunchGame_()
+
